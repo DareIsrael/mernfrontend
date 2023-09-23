@@ -2,7 +2,7 @@ import  {useState}  from "react"
 import { useWorkoutsContext } from "../hooks/useWorkoutsContext"
 import { useAuthContext } from "../hooks/useAuthContext"
 
-import Weather from "./Weather"
+// import Weather from "./Weather"
 
 const WorkoutForm = () => {
    
@@ -25,7 +25,7 @@ const WorkoutForm = () => {
 
         const workout = {bright, dare, boss}
 
-        const response = await fetch ("/api/workout/users", {
+        const response = await fetch ("https://mern-stack-app-api-4hyj.onrender.com/api/workout/users", {
             method: 'POST',
             body: JSON.stringify(workout),
             headers: {
