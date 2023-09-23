@@ -17,7 +17,7 @@ function Home () {
      useEffect (() => {
         const fetchWorkouts = async () => {
 
-            const response = await fetch ('https://mern-stack-app-api-4hyj.onrender.com/api/workout/users', {
+            const response = await fetch ('/api/workout/users', {
                 headers: {
                     'Authorization': `Bearer ${user.token}`
                 }
