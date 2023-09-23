@@ -1,0 +1,124 @@
+body {
+    background-color: antiquewhite;
+  
+
+}
+header {
+    background-color: white;
+}
+
+header a {
+    text-decoration: none;
+}
+header h1 {
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+    
+
+.container {
+    margin: 0 auto;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.home {
+    padding: 10px 40px;
+}
+ul {
+    display: flex;
+    gap: 3rem;
+}
+li {
+    text-decoration: none;
+    
+}
+
+.workoutD {
+   
+    background-color: white;
+    width: 70%;
+    padding: 5px 20px;
+    line-height: 0.5;
+    box-shadow: 5px 0px 10px 5px black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.workoutD img {
+    width: 20px;
+}
+
+.workoutD h4 {
+    color: red;
+}
+
+.workouts {
+    width: 60%;
+    margin-left: 50px;
+   
+    
+}
+
+.home {
+    display: flex;
+   /* justify-content: space-around; */
+   
+   position: relative;
+}
+label, input {
+    display: block;
+    
+}
+input {
+    height: 25px;
+    width: 300px;
+    border: 0;
+}
+form {
+    display: grid;
+    position: absolute;
+    right: 0;
+    width: 40%;
+    gap: 1rem;
+    
+}
+button {
+    width: 100px;
+    height: 33px;
+    border-radius: 5px;
+    cursor: progress;
+    background-color: aqua;
+}
+
+.errors {
+    width: 300px;
+    border: groove 1px red;
+    background-color: rgb(236, 182, 182);
+    border-radius: 3px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin-left: 10px;
+}
+
+form.signup, form.login {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    /* background: #fff; */
+    border-radius: 4px;
+}
+
+.logout {
+    background-color: transparent;
+    border: 2px green solid;
+    cursor: pointer;
+    margin-left: 10px;
+}
